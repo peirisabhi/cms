@@ -91,8 +91,8 @@ public class MultipleMailSend {
 
     public static void sendMail(String to, String subject, String msg) {
 
-        final String username = "info.cms.sl@gmail.com";
-        final String password = "cms@2001";
+        final String username = "email";
+        final String password = "password";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
