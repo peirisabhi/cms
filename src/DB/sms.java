@@ -26,8 +26,8 @@ public class sms {
                 // Construct data
                 String apiKey = "G30FZsY0wQk-rSo8CnuJvYoibGM5ePneIvY378N7Wu";
                 String message = "java sms testing";
-                String sender = "abhi";
-                String numbers = "+94718807480";
+                String sender = "test name";
+                String numbers = "+number";
 
                 // Send data
                 HttpURLConnection conn = (HttpURLConnection) new URL("https://api.txtlocal.com/send/?").openConnection();
